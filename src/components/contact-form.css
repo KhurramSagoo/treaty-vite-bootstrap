@@ -1,0 +1,109 @@
+.second-heading {
+  font-size: 3.5rem;
+}
+.form-bar {
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* .form-info-icon-div {
+} */
+.form-info-icon {
+  width: 45px;
+  margin: 0 40px 40px 0;
+}
+.form-info-span {
+  display: flex;
+  align-items:flex-start;
+  justify-content: baseline;
+}
+.form-social-icon {
+  width: 60px;
+  margin-right: 20px;
+}
+.form-info-txt {
+  font-size: 1rem;
+}
+.form-info-p{
+  font-size: 1.4rem;
+
+}
+
+/* right portion */
+
+.form-left-input {
+  padding: 15px;
+}
+/* #form-right-input-div {
+padding: 50px 50px 0 12px  ;
+}
+#form-left-input-div {
+padding: 50px 12px 0 50px   ;
+} */
+.form-right-text-area {
+  resize: none;
+  padding: 11px;
+}
+.form-right-btn {
+  width: 200px;
+  background-color: rgb(26, 143, 189);
+  color: white;
+  border-radius: 5px;
+  padding: 15px 20px;
+  border: none;
+  float: right;
+  margin-top: 50px;
+}
+
+
+/* @media screen and (min-width:350px) and (max-width:517px){
+  #form-right-input-div {
+    padding: 50px ;
+    background-color: aqua;
+
+    }
+  #form-left-input-div {
+    padding: 50px   ;
+    }
+} */
+
+
+@media screen and (min-width:350px) and (max-width:768px) {
+  .form-info-p{
+    font-size: 1rem;
+  }
+  .form-social-icon {
+    width: 50px;
+    margin-right: 15px;
+  }
+  .form-info-icon {
+    margin: 0 30px 25px 0;
+  }
+  
+  
+  ::placeholder {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:990px) {
+  .form-info-p{
+    font-size: 1rem;
+  }
+  .form-social-icon {
+    width: 50px;
+    margin-right: 15px;
+    /* margin-top: 50px; */
+  }
+  .form-info-icon {
+    /* width: 35px; */
+    margin: 0 30px 25px 0;
+  }
+  
+  
+  ::placeholder {
+    font-size: 14px;
+  }
+}
+
+

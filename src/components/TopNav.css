@@ -1,0 +1,193 @@
+.nv {
+  width: 100%;
+  height: 110px;
+  /* background-color: black; */
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.main-div {
+  width: 100%;
+  max-width: 1635px;
+  height: 110px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  /* margin-top: -8px; */
+  /* background-color: red; */
+  /* margin: 0; */
+}
+
+.brand {
+  margin-left: 10px;
+}
+
+.brand-div {
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  margin: 15px 40px;
+}
+.btn {
+  border: 2px solid skyblue;
+  color: skyblue;
+  padding: 10px 22px;
+  border-radius: 25px;
+  background-color: transparent;
+  font-weight: 500;
+  padding: 8px 20px;
+  /* margin: 35px 22px 35px 80px; */
+  margin: 15px 40px 15px 80px;
+}
+.logo {
+  width: 70px;
+  /* margin-left: 25px; */
+}
+
+.links {
+  margin: 0 0 0 auto;
+}
+.link {
+  color: skyblue !important;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-bottom: 4px solid transparent;
+  transition: color 0.2s, border-bottom-color 0.5s;
+  padding: 39px 0;
+  cursor: pointer;
+  margin: 10px 14px;
+}
+
+.link:hover {
+  color: red !important;
+  border-bottom-color: red !important;
+}
+@media (min-width: 350px) and (max-width: 480px) {
+  .btn {
+    margin: 15px 40px 15px 10px;
+    /* border: 1px solid red; */
+  }
+  .btn:hover {
+    color: red !important;
+    border-bottom-color: red !important;
+  }
+
+  .links {
+    margin: 0 0 0 0;
+  }
+  .link {
+    font-size: 1rem;
+    padding: 10px 0;
+    /* margin: 5px 14px; */
+  }
+
+  .link:hover {
+    color: red !important;
+    border-bottom-color: red !important;
+  }
+
+  #responsive-navbar-nav {
+    background-color: rgb(6, 14, 11);
+    margin-top: 5px;
+    width: 100%;
+    position: absolute;
+    top: 105px;
+    z-index: 9999;
+    left: 0;
+  }
+
+  .brand-div {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 991px) {
+  .btn {
+    margin: 15px 40px 15px 10px;
+    /* border: 1px solid red; */
+  }
+  .btn:hover {
+    color: red !important;
+    border-bottom-color: red !important;
+  }
+
+  .links {
+    margin: 0 0 0 0;
+  }
+  .link {
+    font-size: 1rem;
+    padding: 10px 0;
+    /* margin: 5px 14px; */
+  }
+
+  .link:hover {
+    color: red !important;
+    border-bottom-color: red !important;
+  }
+
+  #responsive-navbar-nav {
+    background-color: rgb(6, 14, 11);
+    margin-top: 5px;
+    width: 100%;
+    position: absolute;
+    top: 105px;
+    z-index: 9999;
+    left: 0;
+  }
+
+  .brand-div {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    margin-right: 52px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1039px) {
+  .btn {
+    border: 2px solid skyblue;
+    color: skyblue;
+    /* padding: 10px 22px; */
+    /* padding: 8px 20px; */
+    /* margin: 35px 22px 35px 80px; */
+    margin: 15px 40px 15px 0;
+  }
+  .link {
+    color: skyblue !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-bottom: 4px solid transparent;
+    transition: color 0.2s, border-bottom-color 0.5s;
+    /* padding: 30px 9px; */
+    cursor: pointer;
+    margin: 10px 14px;
+  }
+  .brand-div {
+    margin: 15px 0 15px 40px;
+  }
+}
+@media (min-width: 1039px) and (max-width: 1106px) {
+  .btn {
+    border: 2px solid skyblue;
+    color: skyblue;
+    /* padding: 10px 22px; */
+    /* padding: 8px 20px; */
+    /* margin: 35px 22px 35px 80px; */
+    margin: 15px 40px 15px 0;
+  }
+  .link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 4px solid transparent;
+    transition: color 0.2s, border-bottom-color 0.5s;
+    /* padding: 30px 9px; */
+    cursor: pointer;
+    margin: 10px 14px;
+  }
+  .brand-div {
+    margin: 15px 0 15px 40px;
+  }
+}
